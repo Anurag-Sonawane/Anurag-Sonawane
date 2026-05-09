@@ -1,0 +1,62 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.45" stop-color="#101B3D"/>
+      <stop offset="1" stop-color="#130517"/>
+    </linearGradient>
+    <linearGradient id="line" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.5" stop-color="#8B5CFF"/>
+      <stop offset="1" stop-color="#FF2E88"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.82 0 0 0 0 1 0 0 0 0.8 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="430" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="34" fill="url(#grid)"/>
+
+  <g opacity="0.75">
+    <path d="M-20 330C188 235 270 408 458 298C646 188 720 52 1220 92" stroke="url(#line)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite"
+        values="M-20 330C188 235 270 408 458 298C646 188 720 52 1220 92;M-20 292C210 380 330 190 500 270C690 360 820 80 1220 138;M-20 330C188 235 270 408 458 298C646 188 720 52 1220 92"/>
+    </path>
+    <path d="M-30 125C180 80 316 200 480 146C708 72 798 330 1230 250" stroke="#FF2E88" stroke-opacity="0.45" stroke-width="2">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M-30 125C180 80 316 200 480 146C708 72 798 330 1230 250;M-30 180C190 40 352 248 520 170C760 58 826 250 1230 205;M-30 125C180 80 316 200 480 146C708 72 798 330 1230 250"/>
+    </path>
+  </g>
+
+  <g transform="translate(92 78)">
+    <rect x="0" y="0" width="1016" height="274" rx="26" fill="#080B18" fill-opacity="0.78" stroke="#FFFFFF" stroke-opacity="0.13"/>
+    <rect x="0" y="0" width="1016" height="54" rx="26" fill="#FFFFFF" fill-opacity="0.06"/>
+    <circle cx="34" cy="27" r="7" fill="#FF4D6D"/>
+    <circle cx="58" cy="27" r="7" fill="#FFC857"/>
+    <circle cx="82" cy="27" r="7" fill="#42E66C"/>
+    <text x="508" y="34" text-anchor="middle" fill="#AAB4D4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">profile://anurag-sonawane</text>
+
+    <text x="62" y="118" fill="#00E5FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">HELLO, I AM</text>
+    <text x="62" y="178" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="900" letter-spacing="1">ANURAG SONAWANE</text>
+    <text x="62" y="220" fill="#C9D4FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Developer focused on clean UI, useful projects, and constant improvement.</text>
+
+    <g transform="translate(740 92)">
+      <rect width="208" height="108" rx="20" fill="#0E1430" stroke="#00E5FF" stroke-opacity="0.35"/>
+      <text x="28" y="42" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">status</text>
+      <text x="28" y="77" fill="#00E5FF" font-family="JetBrains Mono,Consolas,monospace" font-size="23" font-weight="800">BUILDING</text>
+      <rect x="28" y="90" width="152" height="4" rx="2" fill="#202A52"/>
+      <rect x="28" y="90" width="76" height="4" rx="2" fill="#FF2E88">
+        <animate attributeName="width" values="42;152;42" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
