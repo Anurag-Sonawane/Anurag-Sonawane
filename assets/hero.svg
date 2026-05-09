@@ -1,61 +1,76 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#050816"/>
-      <stop offset="0.45" stop-color="#101B3D"/>
-      <stop offset="1" stop-color="#130517"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04050D"/>
+      <stop offset="0.45" stop-color="#071B35"/>
+      <stop offset="1" stop-color="#21031D"/>
     </linearGradient>
-    <linearGradient id="line" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00E5FF"/>
-      <stop offset="0.5" stop-color="#8B5CFF"/>
-      <stop offset="1" stop-color="#FF2E88"/>
+    <linearGradient id="hot" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF3D9A"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.82 0 0 0 0 1 0 0 0 0.8 0"/>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
       <feMerge>
-        <feMergeNode/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.06"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="430" rx="34" fill="url(#bg)"/>
-  <rect width="1200" height="430" rx="34" fill="url(#grid)"/>
+  <rect width="1200" height="520" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="34" fill="url(#grid)"/>
+  <circle cx="1010" cy="88" r="150" fill="#FF3D9A" opacity="0.12"/>
+  <circle cx="170" cy="440" r="170" fill="#00F5FF" opacity="0.12"/>
 
-  <g opacity="0.75">
-    <path d="M-20 330C188 235 270 408 458 298C646 188 720 52 1220 92" stroke="url(#line)" stroke-width="3" filter="url(#glow)">
-      <animate attributeName="d" dur="7s" repeatCount="indefinite"
-        values="M-20 330C188 235 270 408 458 298C646 188 720 52 1220 92;M-20 292C210 380 330 190 500 270C690 360 820 80 1220 138;M-20 330C188 235 270 408 458 298C646 188 720 52 1220 92"/>
-    </path>
-    <path d="M-30 125C180 80 316 200 480 146C708 72 798 330 1230 250" stroke="#FF2E88" stroke-opacity="0.45" stroke-width="2">
-      <animate attributeName="d" dur="9s" repeatCount="indefinite"
-        values="M-30 125C180 80 316 200 480 146C708 72 798 330 1230 250;M-30 180C190 40 352 248 520 170C760 58 826 250 1230 205;M-30 125C180 80 316 200 480 146C708 72 798 330 1230 250"/>
-    </path>
-  </g>
+  <path d="M0 388C180 280 260 445 430 330C590 222 650 112 850 150C1010 180 1050 248 1200 170" stroke="url(#hot)" stroke-width="4" opacity="0.8" filter="url(#glow)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0 388C180 280 260 445 430 330C590 222 650 112 850 150C1010 180 1050 248 1200 170;M0 330C190 430 310 240 455 320C622 410 706 95 890 160C1042 215 1082 140 1200 245;M0 388C180 280 260 445 430 330C590 222 650 112 850 150C1010 180 1050 248 1200 170"/>
+  </path>
 
-  <g transform="translate(92 78)">
-    <rect x="0" y="0" width="1016" height="274" rx="26" fill="#080B18" fill-opacity="0.78" stroke="#FFFFFF" stroke-opacity="0.13"/>
-    <rect x="0" y="0" width="1016" height="54" rx="26" fill="#FFFFFF" fill-opacity="0.06"/>
-    <circle cx="34" cy="27" r="7" fill="#FF4D6D"/>
-    <circle cx="58" cy="27" r="7" fill="#FFC857"/>
-    <circle cx="82" cy="27" r="7" fill="#42E66C"/>
-    <text x="508" y="34" text-anchor="middle" fill="#AAB4D4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">profile://anurag-sonawane</text>
+  <g transform="translate(70 64)">
+    <rect width="1060" height="392" rx="28" fill="#070A13" fill-opacity="0.86" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect width="1060" height="58" rx="28" fill="#FFFFFF" fill-opacity="0.06"/>
+    <circle cx="34" cy="29" r="7" fill="#FF4A6A"/>
+    <circle cx="58" cy="29" r="7" fill="#FFD166"/>
+    <circle cx="82" cy="29" r="7" fill="#2EEA75"/>
+    <text x="530" y="36" text-anchor="middle" fill="#98A7D8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">github.profile.dashboard</text>
 
-    <text x="62" y="118" fill="#00E5FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">HELLO, I AM</text>
-    <text x="62" y="178" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="900" letter-spacing="1">ANURAG SONAWANE</text>
-    <text x="62" y="220" fill="#C9D4FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Developer focused on clean UI, useful projects, and constant improvement.</text>
+    <text x="56" y="130" fill="#00F5FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="4">WELCOME TO MY GITHUB</text>
+    <text x="56" y="208" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="900">Anurag Sonawane</text>
+    <text x="60" y="258" fill="#DCE6FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">Developer | UI builder | Problem solver | Constant learner</text>
 
-    <g transform="translate(740 92)">
-      <rect width="208" height="108" rx="20" fill="#0E1430" stroke="#00E5FF" stroke-opacity="0.35"/>
-      <text x="28" y="42" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">status</text>
-      <text x="28" y="77" fill="#00E5FF" font-family="JetBrains Mono,Consolas,monospace" font-size="23" font-weight="800">BUILDING</text>
-      <rect x="28" y="90" width="152" height="4" rx="2" fill="#202A52"/>
-      <rect x="28" y="90" width="76" height="4" rx="2" fill="#FF2E88">
-        <animate attributeName="width" values="42;152;42" dur="2.4s" repeatCount="indefinite"/>
+    <g transform="translate(58 304)">
+      <rect width="168" height="44" rx="22" fill="#00F5FF" fill-opacity="0.12" stroke="#00F5FF" stroke-opacity="0.55"/>
+      <text x="84" y="29" text-anchor="middle" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800">CODE</text>
+    </g>
+    <g transform="translate(246 304)">
+      <rect width="168" height="44" rx="22" fill="#7C3AED" fill-opacity="0.16" stroke="#7C3AED" stroke-opacity="0.6"/>
+      <text x="84" y="29" text-anchor="middle" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800">DESIGN</text>
+    </g>
+    <g transform="translate(434 304)">
+      <rect width="168" height="44" rx="22" fill="#FF3D9A" fill-opacity="0.14" stroke="#FF3D9A" stroke-opacity="0.6"/>
+      <text x="84" y="29" text-anchor="middle" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800">SHIP</text>
+    </g>
+
+    <g transform="translate(760 118)">
+      <rect width="230" height="188" rx="24" fill="#0C1020" stroke="#00F5FF" stroke-opacity="0.25"/>
+      <text x="28" y="42" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="800">profile signal</text>
+      <rect x="28" y="68" width="174" height="12" rx="6" fill="#17203D"/>
+      <rect x="28" y="68" width="128" height="12" rx="6" fill="#00F5FF">
+        <animate attributeName="width" values="70;174;120;160;70" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="28" y="104" width="174" height="12" rx="6" fill="#17203D"/>
+      <rect x="28" y="104" width="100" height="12" rx="6" fill="#7C3AED">
+        <animate attributeName="width" values="112;146;84;174;112" dur="4.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="28" y="140" width="174" height="12" rx="6" fill="#17203D"/>
+      <rect x="28" y="140" width="146" height="12" rx="6" fill="#FF3D9A">
+        <animate attributeName="width" values="146;88;174;130;146" dur="5s" repeatCount="indefinite"/>
       </rect>
     </g>
   </g>
