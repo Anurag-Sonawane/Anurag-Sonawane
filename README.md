@@ -1,18 +1,23 @@
-<div align="center">
-
-# Hi, I'm Anurag Sonawane
-
-### Developer focused on clean UI, useful projects, and consistent progress.
-
-<a href="mailto:anuragsonawane2006@gmail.com">
-  <img src="https://img.shields.io/badge/Email-anuragsonawane2006%40gmail.com-22272E?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://github.com/Anurag-Sonawane?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-View%20Projects-22272E?style=flat-square&logo=github&logoColor=white" alt="Repositories" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=Anurag-Sonawane&style=flat-square&color=2EA043&label=Profile+views" alt="Profile views" />
-
-</div>
+<table>
+  <tr>
+    <td width="130" align="center">
+      <img src="./assets/logo.svg" width="110" alt="AS logo" />
+    </td>
+    <td valign="middle">
+      <h1>Anurag Sonawane</h1>
+      <p>
+        Developer focused on clean UI, useful projects, and consistent progress.
+      </p>
+      <a href="mailto:anuragsonawane2006@gmail.com">
+        <img src="https://img.shields.io/badge/Email-anuragsonawane2006%40gmail.com-22272E?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+      </a>
+      <a href="https://github.com/Anurag-Sonawane?tab=repositories">
+        <img src="https://img.shields.io/badge/Repositories-View%20Projects-22272E?style=flat-square&logo=github&logoColor=white" alt="Repositories" />
+      </a>
+      <img src="https://komarev.com/ghpvc/?username=Anurag-Sonawane&style=flat-square&color=2EA043&label=Profile+views" alt="Profile views" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -74,7 +79,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Anurag-Sonawane&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=github_dark&title_color=58A6FF&icon_color=2EA043" alt="GitHub stats" />
+      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anurag-Sonawane&theme=github_dark" alt="GitHub stats" />
     </td>
     <td width="50%" valign="top">
       <img width="100%" src="https://streak-stats.demolab.com?user=Anurag-Sonawane&theme=github-dark-blue&hide_border=true&ring=2EA043&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub streak" />
@@ -82,7 +87,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anurag-Sonawane&layout=compact&hide_border=true&theme=github_dark&title_color=58A6FF" alt="Top languages" />
+      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anurag-Sonawane&theme=github_dark" alt="Repositories per language" />
     </td>
     <td width="50%" valign="top">
       <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anurag-Sonawane&theme=github_dark&utcOffset=5.5" alt="Productive time" />
