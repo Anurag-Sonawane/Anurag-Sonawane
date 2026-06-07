@@ -1,16 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Anurag Sonawane contribution-first profile" />
-
-<br />
-
-<img src="https://komarev.com/ghpvc/?username=Anurag-Sonawane&style=for-the-badge&color=39FF88&label=PROFILE+VIEWS" alt="Profile views" />
-<a href="mailto:anuragsonawane2006@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-0D1117?style=for-the-badge&logo=gmail&logoColor=39FF88&labelColor=0D1117" alt="Email" />
-</a>
-<a href="https://github.com/Anurag-Sonawane?tab=repositories">
-  <img src="https://img.shields.io/badge/Projects-Explore-0D1117?style=for-the-badge&logo=github&logoColor=39FF88&labelColor=0D1117" alt="Projects" />
-</a>
+<img src="./assets/hero.svg" width="100%" alt="Anurag Sonawane profile header" />
 
 </div>
 
@@ -67,6 +57,20 @@
     </td>
   </tr>
 </table>
+
+<br />
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Anurag-Sonawane&style=flat-square&color=39FF88&label=Profile+views" alt="Profile views" />
+<a href="mailto:anuragsonawane2006@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-0D1117?style=flat-square&logo=gmail&logoColor=39FF88&labelColor=0D1117" alt="Email" />
+</a>
+<a href="https://github.com/Anurag-Sonawane?tab=repositories">
+  <img src="https://img.shields.io/badge/Projects-Explore-0D1117?style=flat-square&logo=github&logoColor=39FF88&labelColor=0D1117" alt="Projects" />
+</a>
+
+</div>
 
 <br />
 
