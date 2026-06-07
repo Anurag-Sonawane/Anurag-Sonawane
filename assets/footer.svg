@@ -1,15 +1,13 @@
 <svg width="1200" height="190" viewBox="0 0 1200 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="190" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#D6FF7F"/>
-      <stop offset="0.55" stop-color="#7DE2D1"/>
-      <stop offset="1" stop-color="#F4F1DE"/>
+    <linearGradient id="g" x1="70" y1="0" x2="1130" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39FF88"/>
+      <stop offset="0.5" stop-color="#00D9FF"/>
+      <stop offset="1" stop-color="#E8F0EA"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="190" rx="32" fill="#0B0F14"/>
-  <path d="M80 132H1120" stroke="url(#g)" stroke-width="2" stroke-linecap="round"/>
-  <text x="600" y="76" text-anchor="middle" fill="#F4F1DE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="32" font-weight="900">Thanks for stopping by</text>
-  <text x="600" y="114" text-anchor="middle" fill="#AAB4A3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Learning, building, and getting better one project at a time.</text>
-  <circle cx="80" cy="132" r="7" fill="#D6FF7F"/>
-  <circle cx="1120" cy="132" r="7" fill="#7DE2D1"/>
+  <rect width="1200" height="190" rx="30" fill="#05070B"/>
+  <rect x="28" y="28" width="1144" height="134" rx="24" stroke="url(#g)" stroke-opacity="0.5"/>
+  <text x="600" y="82" text-anchor="middle" fill="#E8F0EA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="32" font-weight="900">Open a repo. Watch the progress.</text>
+  <text x="600" y="120" text-anchor="middle" fill="#99A8A1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Learning in public and building one better commit at a time.</text>
 </svg>
