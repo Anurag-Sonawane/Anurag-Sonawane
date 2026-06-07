@@ -1,16 +1,15 @@
-<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="190" viewBox="0 0 1200 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="180" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00F5FF"/>
-      <stop offset="0.5" stop-color="#7C3AED"/>
-      <stop offset="1" stop-color="#FF3D9A"/>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D6FF7F"/>
+      <stop offset="0.55" stop-color="#7DE2D1"/>
+      <stop offset="1" stop-color="#F4F1DE"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="180" rx="30" fill="#070A13"/>
-  <path d="M0 112C154 44 258 154 410 94C570 30 702 148 852 92C1004 35 1082 58 1200 34V180H0V112Z" fill="url(#g)" opacity="0.2">
-    <animate attributeName="d" dur="7s" repeatCount="indefinite"
-      values="M0 112C154 44 258 154 410 94C570 30 702 148 852 92C1004 35 1082 58 1200 34V180H0V112Z;M0 70C150 130 280 42 430 104C585 168 690 38 850 98C1010 154 1094 84 1200 110V180H0V70Z;M0 112C154 44 258 154 410 94C570 30 702 148 852 92C1004 35 1082 58 1200 34V180H0V112Z"/>
-  </path>
-  <text x="600" y="78" text-anchor="middle" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="900">Thanks for visiting</text>
-  <text x="600" y="116" text-anchor="middle" fill="#BFD7FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Learning in public. Building with intention. Improving every day.</text>
+  <rect width="1200" height="190" rx="32" fill="#0B0F14"/>
+  <path d="M80 132H1120" stroke="url(#g)" stroke-width="2" stroke-linecap="round"/>
+  <text x="600" y="76" text-anchor="middle" fill="#F4F1DE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="32" font-weight="900">Thanks for stopping by</text>
+  <text x="600" y="114" text-anchor="middle" fill="#AAB4A3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Learning, building, and getting better one project at a time.</text>
+  <circle cx="80" cy="132" r="7" fill="#D6FF7F"/>
+  <circle cx="1120" cy="132" r="7" fill="#7DE2D1"/>
 </svg>

@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Anurag Sonawane profile dashboard" />
+<img src="./assets/hero.svg" width="100%" alt="Anurag Sonawane profile cover" />
 
 <br />
 
 <a href="mailto:anuragsonawane2006@gmail.com">
-  <img src="https://img.shields.io/badge/Email-anuragsonawane2006%40gmail.com-070A13?style=for-the-badge&logo=gmail&logoColor=00F5FF&labelColor=141827" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-anuragsonawane2006%40gmail.com-101418?style=for-the-badge&logo=gmail&logoColor=D6FF7F&labelColor=101418" alt="Email" />
 </a>
 <a href="https://github.com/Anurag-Sonawane?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-Explore-070A13?style=for-the-badge&logo=github&logoColor=FF3D9A&labelColor=141827" alt="Repositories" />
+  <img src="https://img.shields.io/badge/Projects-View%20Work-101418?style=for-the-badge&logo=github&logoColor=7DE2D1&labelColor=101418" alt="Projects" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=Anurag-Sonawane&style=for-the-badge&color=00F5FF&label=VISITORS" alt="Profile visitors" />
+<img src="https://komarev.com/ghpvc/?username=Anurag-Sonawane&style=for-the-badge&color=D6FF7F&label=Visitors" alt="Profile views" />
 
 </div>
 
@@ -18,24 +18,23 @@
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h2>Control Room</h2>
+    <td width="60%" valign="top">
+      <h2>About Me</h2>
       <p>
-        I am <strong>Anurag Sonawane</strong>, a developer who likes building clean,
-        useful, and visually sharp digital experiences.
+        I am <strong>Anurag Sonawane</strong>, a developer who enjoys turning ideas
+        into clean, useful, and visually polished digital experiences.
       </p>
       <p>
-        My profile is a live dashboard of what I am learning, building, improving,
-        and shipping. I care about strong UI, practical code, and projects that feel
-        finished instead of just functional.
+        I care about interface quality, readable code, practical problem solving,
+        and building projects that feel complete.
       </p>
     </td>
-    <td width="42%" valign="top">
-      <h2>Current Signal</h2>
-      <p><strong>Mode:</strong> learning, building, polishing</p>
-      <p><strong>Focus:</strong> frontend, full-stack basics, clean UI</p>
-      <p><strong>Goal:</strong> ship better projects with every commit</p>
-      <p><strong>Contact:</strong> anuragsonawane2006@gmail.com</p>
+    <td width="40%" valign="top">
+      <h2>Now</h2>
+      <p><strong>Learning:</strong> modern web development</p>
+      <p><strong>Building:</strong> portfolio-ready projects</p>
+      <p><strong>Improving:</strong> UI, logic, and consistency</p>
+      <p><strong>Mindset:</strong> ship, learn, refine</p>
     </td>
   </tr>
 </table>
@@ -44,14 +43,17 @@
 
 <div align="center">
 
-## Live GitHub Graphs
+<img src="./assets/craft.svg" width="100%" alt="Developer craft visual" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anurag-Sonawane&bg_color=050816&color=EAF2FF&line=00F5FF&point=FF3D9A&area=true&area_color=7C3AED&hide_border=true&custom_title=Contribution%20Activity%20Graph" alt="GitHub contribution activity graph" />
+</div>
 
 <br />
-<br />
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anurag-Sonawane&theme=radical" alt="GitHub profile detail graph" />
+<div align="center">
+
+## GitHub Pulse
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anurag-Sonawane&bg_color=0B0F14&color=F4F1DE&line=D6FF7F&point=7DE2D1&area=true&area_color=D6FF7F&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
 
 </div>
 
@@ -60,18 +62,18 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Anurag-Sonawane&show_icons=true&hide_border=true&theme=radical&rank_icon=github&include_all_commits=true&count_private=true&bg_color=050816&title_color=00F5FF&text_color=EAF2FF&icon_color=FF3D9A" alt="GitHub stats graph" />
+      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Anurag-Sonawane&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=D6FF7F&text_color=F4F1DE&icon_color=7DE2D1" alt="GitHub stats" />
     </td>
     <td width="50%" valign="top">
-      <img width="100%" src="https://streak-stats.demolab.com?user=Anurag-Sonawane&theme=radical&hide_border=true&background=050816&ring=00F5FF&fire=FF3D9A&currStreakLabel=00F5FF&sideLabels=EAF2FF&dates=AAB7D4" alt="GitHub streak graph" />
+      <img width="100%" src="https://streak-stats.demolab.com?user=Anurag-Sonawane&theme=dark&hide_border=true&background=0B0F14&ring=D6FF7F&fire=7DE2D1&currStreakLabel=D6FF7F&sideLabels=F4F1DE&dates=9CA3AF" alt="GitHub streak" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anurag-Sonawane&layout=compact&hide_border=true&theme=radical&bg_color=050816&title_color=00F5FF&text_color=EAF2FF" alt="Top languages graph" />
+      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anurag-Sonawane&layout=compact&hide_border=true&theme=transparent&title_color=D6FF7F&text_color=F4F1DE" alt="Top languages" />
     </td>
     <td width="50%" valign="top">
-      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anurag-Sonawane&theme=radical&utcOffset=5.5" alt="Productive time graph" />
+      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anurag-Sonawane&theme=nord_dark&utcOffset=5.5" alt="Productive time graph" />
     </td>
   </tr>
 </table>
@@ -80,17 +82,9 @@
 
 <div align="center">
 
-## Trophy Board
+## Tools I Use
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Anurag-Sonawane&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=6" alt="GitHub trophy graph" />
-
-</div>
-
-<br />
-
-<div align="center">
-
-<img src="./assets/analytics.svg" width="100%" alt="Animated custom analytics dashboard" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,java,cpp,git,github,vscode,figma&theme=dark&perline=7" alt="Tech stack icons" />
 
 </div>
 
@@ -98,9 +92,9 @@
 
 <div align="center">
 
-## Tech Stack
+## Recognition Board
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,java,cpp,git,github,vscode,figma&theme=dark&perline=7" alt="Technology icons" />
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Anurag-Sonawane&theme=darkhub&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=6" alt="GitHub trophies" />
 
 </div>
 
@@ -109,20 +103,20 @@
 <table>
   <tr>
     <td width="25%" align="center">
-      <h3>Think</h3>
-      <p>Understand the problem and the people using the project.</p>
+      <h3>Plan</h3>
+      <p>Understand what needs to be built.</p>
     </td>
     <td width="25%" align="center">
       <h3>Design</h3>
-      <p>Shape a UI that feels clean, clear, and easy to scan.</p>
+      <p>Make the experience clear and polished.</p>
     </td>
     <td width="25%" align="center">
-      <h3>Build</h3>
-      <p>Turn the plan into working code with steady improvements.</p>
+      <h3>Develop</h3>
+      <p>Write practical code that works.</p>
     </td>
     <td width="25%" align="center">
-      <h3>Polish</h3>
-      <p>Refine the details until the project feels complete.</p>
+      <h3>Refine</h3>
+      <p>Improve the small details that matter.</p>
     </td>
   </tr>
 </table>
@@ -130,18 +124,16 @@
 <br />
 
 <div align="center">
-
-## Contribution Flow
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anurag-Sonawane/Anurag-Sonawane/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anurag-Sonawane/Anurag-Sonawane/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="Contribution snake graph" src="https://raw.githubusercontent.com/Anurag-Sonawane/Anurag-Sonawane/output/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="Contribution animation" src="https://raw.githubusercontent.com/Anurag-Sonawane/Anurag-Sonawane/output/github-contribution-grid-snake.svg" />
 </picture>
 
 <br />
 <br />
 
-<img src="./assets/footer.svg" width="100%" alt="Footer banner" />
+<img src="./assets/footer.svg" width="100%" alt="Footer visual" />
 
 </div>
